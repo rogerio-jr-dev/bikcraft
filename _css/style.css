@@ -3,6 +3,10 @@
 @import "../_css/utilidades/tipografia.css";
 @import "../_css/utilidades/cores.css";
 @import "../_css/bik-liste.css";
+@import "../_css/tecnologia.css";
+@import "../_css/parceiros.css";
+@import "../_css/_seguros/seguros.css";
+@import "../_css/footer.css";
 @import "header.css";
 @import "home.css";
 

@@ -1,0 +1,113 @@
+.parceiros {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+.parceiros h2 {
+  margin-bottom: 60px;
+}
+.parceiros ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+.parceiros li {
+  display: flex;
+  padding: 32px;
+  border-left: 2px solid var(--color-c2-);
+}
+.parceiros img {
+  margin: auto;
+}
+.parceiros li:first-child,
+.parceiros li:nth-child(5) {
+  border-left: none;
+}
+.parceiros li:nth-child(n + 5) {
+  border-top: 2px solid var(--color-c2-);
+}
+@media (max-width: 800px) {
+  .parceiros {
+    padding-bottom: 60px;
+  }
+  .parceiros h2 {
+    margin-bottom: 20px;
+  }
+  .parceiros ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .parceiros li:nth-child(odd) {
+    border-left: none;
+  }
+  .parceiros li:nth-child(n + 3) {
+    border-top: 2px solid var(--color-c2-);
+  }
+  .parceiros li {
+    padding: 20px;
+  }
+}
+/*-------Depoimento-------*/
+.depoimento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--color-p1-);
+  overflow: hidden;
+}
+.foto-depoimento{
+  max-height: 530px;
+}
+.foto-depoimento img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: initial;
+}
+.depoimento-conteudo {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 40px 40px 80px 80px;
+  align-self: end;
+  justify-self: end;
+}
+.depoimento-conteudo p {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-weight: 900;
+  max-width: 32ch;
+  margin-bottom: 32px;
+  position: relative;
+}
+.depoimento p::before,
+.depoimento p::after{
+  font-size: 5rem;
+  color: var(--color-p2-);
+  position: absolute;
+}
+.depoimento p::before{
+  content: '“';
+  font-size: 5rem;
+  color: var(--color-p2-);
+  position: absolute;
+  left: -50px;
+  top: -20px;
+}
+.depoimento p::after{
+  content: '”';
+}
+.autor{
+  justify-self: end;
+}
+@media (max-width:800px){
+  .depoimento{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .depoimento img{
+    max-height: 250px;
+  }
+  .depoimento-conteudo{
+    padding: 40px 20px;
+    justify-self: center;
+  }
+}
