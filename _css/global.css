@@ -2,7 +2,7 @@ body{
   margin: 0px;
   color: #111111;
 }
-ul, a, h1, p, h2, h3, h4, blockquote {
+ul, a, h1, p, h2, h3, h4, blockquote, dd{
   margin: 0px;
   padding: 0px;
   list-style: none;
