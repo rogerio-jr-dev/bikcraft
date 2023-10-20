@@ -41,8 +41,11 @@ margin-bottom: 16px;
   margin-right: auto;
   display: flex;
   gap: 40px;
-  padding: 0 20px 20px 20px;
+  padding: 0px 20px 20px 20px;
   overflow-x: auto;
+}
+#bicicleta .bicicleta-lista ul{
+  padding: 0px 0px 20px 0px;
 }
 @media (max-width:800px){
   .bicicleta-lista{

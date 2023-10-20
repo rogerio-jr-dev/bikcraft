@@ -37,7 +37,7 @@
 .bicicleta h2{
   margin-bottom: 20px;
 }
-.bicicleta h2::before{
+#bicicletas .bicicleta h2::before{
   content: "";
   display: block;
   width: 12px;
@@ -45,17 +45,17 @@
   margin-bottom: 8px; 
   background-color: var(--color-p1-);
 }
-.bicicleta p {
+#bicicletas .bicicleta p {
   margin-bottom: 32px;
 }
-.bicicleta a {
+#bicicletas .bicicleta a {
   place-self: end;
 }
-.bicicleta ul{
+#bicicletas .bicicleta ul{
   display: grid;
   gap: 16px;
 }
-.bicicleta li{
+#bicicletas .bicicleta li{
   display: flex;
   align-items: center;
   gap:8px;

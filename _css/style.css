@@ -12,8 +12,12 @@
 @import "../_css/bicicletas/bicicletas.css";
 /*seguros*/
 @import "../_css/_seguros/seguros.css";
+@import "../bicicleta/seguro.css";
 @import "../_css/_seguros/vantegens.css";
 @import "../_css/_seguros/perguntas.css";
+/*Bicicletas*/
+@import "../bicicleta/bicicleta.css";
+
 /*footer*/
 @import "../_css/footer.css";
 /*Termos*/
