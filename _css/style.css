@@ -1,6 +1,7 @@
 @import "../_css/global.css";
 /*Utilidades*/
 @import "../_css/utilidades/componentes.css";
+@import "../_css/utilidades/formulario.css";
 @import "../_css/utilidades/tipografia.css";
 @import "../_css/utilidades/cores.css";
 /*Pagina home*/
@@ -17,7 +18,9 @@
 @import "../_css/_seguros/perguntas.css";
 /*Bicicletas*/
 @import "../bicicleta/bicicleta.css";
-
+/*Contato*/
+@import "../_css/contato/contato.css";
+@import "../_css/contato/lojas.css";
 /*footer*/
 @import "../_css/footer.css";
 /*Termos*/

@@ -16,3 +16,6 @@ img{
 img[src$=".jpg"]{
   border-radius: 5px;
 }
+textarea{
+  color: var(--color-c7-);
+}
